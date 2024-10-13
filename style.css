@@ -1,0 +1,104 @@
+.gradient-background {
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  .navbar {
+    background-color: #ffe4e1; /* Light pink shade */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-family: 'Cursive', sans-serif; /* Adds a more romantic, handwritten style */
+    color: #e75480; /* A shade of pink */
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    color: #e75480;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #c71585; /* Darker pink for hover effect */
+}
+
+.btn-primary {
+    background-color: #f88cc2; /* A lovely pink shade */
+    border-color: black ;
+}
+
+.btn-primary:hover {
+    background-color: rgb(231, 131, 165); /* Darker pink on hover */
+    border-color: #c71585;
+}
+
+.btn-outline-secondary {
+    background-color: #ffa9d4; /* A lovely pink shade */
+    border-color: black ;;
+}
+
+.btn-outline-secondary:hover {
+    background-color: #e75480;
+    color: #fff;
+}
+
+#surprise-message, #journey-section {
+    display: none;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    margin-top: 20px;
+}
+
+#surprise-message.show, #journey-section.show {
+    display: block;
+    opacity: 1;
+}
+
+/* Surprise Section Styles */
+.surprise-content {
+    background-color: #fff; /* White background for contrast */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.lead1{
+    background-color: #fff; /* White background for contrast */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: black;
+}
+.lead3{
+    background-color: #fff; /* White background for contrast */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: black;
+}
+
+.feature-icon {
+    
+    width: 4rem;
+    height: 4rem;
+    border-radius: .75rem;
+    
+
+}
+p{
+    color: white;
+}
+
